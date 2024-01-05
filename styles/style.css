@@ -13,6 +13,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   color: white;
+  cursor: pointer;
 }
 .section_title {
   text-align: center;
@@ -28,6 +29,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   color: #fd6e0a;
+  cursor: pointer;
 }
 
 /* nav style */
@@ -98,19 +100,44 @@ nav ul a {
   height: 676px;
 }
 /* about area */
-.about {
-  max-width: 50%;
+main {
+  max-width: 1000px;
   margin: 0 auto;
+}
+.about {
   background: #fff8f3;
   border-radius: 10px;
   padding: 130px;
 }
-.about_content {
-  margin: auto;
-}
-
-.about_details {
-  margin: auto;
+.about_info {
   display: flex;
   justify-content: space-around;
+  text-align: center;
+}
+.about_info address {
+  font-style: normal;
+}
+/* What I do area */
+.What_area{
+  margin-top: 80px;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  text-align: justify;
+}
+.card_title {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+}
+.card_body{
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+}
+.what-i-do-description{
+  padding: 30px 130px;
 }
