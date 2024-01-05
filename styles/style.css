@@ -118,7 +118,7 @@ main {
   font-style: normal;
 }
 /* What I do area */
-.What_area{
+.What_area {
   margin-top: 80px;
 }
 .card {
@@ -132,12 +132,68 @@ main {
   font-size: 20px;
   font-weight: 700;
 }
-.card_body{
+.card_body {
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   padding: 30px;
 }
-.what-i-do-description{
+.what-i-do-description {
   padding: 30px 130px;
+}
+/* Resume section */
+.Resume_section_h1 {
+  padding: 40px 0px;
+}
+.Download_CV {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+}
+.Resume_column {
+  padding: 0px 20px;
+}
+.resume_title {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* footer area */
+#footer_area {
+  background: #fff8f3;
+  padding: 100px 0px;
+}
+.footer_section {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 50px;
+}
+.social_link {
+  margin-top: 40px;
+}
+.social_link a {
+  margin-right: 20px;
+}
+.footer_title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+.footer_aside {
+  width: 50%;
+}
+.footer_aside input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  margin: 20px 0px;
+  padding: 18px 30px;
+  width: 100%;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
 }
