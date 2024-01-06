@@ -62,11 +62,24 @@ nav ul a {
 /* header style */
 .header {
   background: #fff8f3;
-  background-image: url("../images/header_bg.png");
+  background-image: url("../images/header_bg.png") , url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right , center  left;
   margin-bottom: 100px;
+  /* position: relative; */
 }
+/* .developer_logo h1{
+  color: rgba(24, 24, 24, 0.062);
+  font-weight: 700;
+  letter-spacing: 20px;
+} */
+/* .developer_logo {
+  font-size: 55px;
+  position: absolute;
+  top: 30%;
+  left: -26%;
+  transform: rotate(-90deg);
+} */
 .banner {
   padding: 30px 30px 0 100px;
   display: flex;
